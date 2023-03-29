@@ -35,7 +35,7 @@ ssh-keygen -t rsa -C "xxx@xxx.com"
 //一直回车即可
 ```
 
-![image-20230329165330726](images/image-20230329165330726.png)
+![image-20230329165330726](images/image-20230329165330725.png)
 
 3. 获取ssh key公钥内容（id_rsa.pub)
 
