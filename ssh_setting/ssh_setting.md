@@ -22,7 +22,7 @@ ls
 
 不存在时：
 
-![image-20230329165145360](.\images\image-20230329165145360.png)
+![image-20230329165145360](images/image-20230329165145360.png)
 
 已经存在会没有提示。
 
@@ -37,7 +37,7 @@ ssh-keygen -t rsa -C "xxx@xxx.com"
 //一直回车即可
 ```
 
-![image-20230329165330726](.\images\image-20230329165330726.png)
+![image-20230329165330726](images/image-20230329165330726.png)
 
 3. 获取ssh key公钥内容（id_rsa.pub)
 
@@ -46,7 +46,7 @@ cd ~/.ssh
 cat id_rsa.pub
 ```
 
- ![image-20230329165454380](.\images\image-20230329165454380.png)
+![image-20230329165454380](images/image-20230329165454380.png)
 
 4. GitHub账号上添加公钥
 
@@ -60,7 +60,7 @@ ssh -T git@github.com
 
 如成功会显示下面信息：
 
-![image-20230329165537279](.\images\image-20230329165537279.png)
+![image-20230329165537279](images/image-20230329165537279.png)
 
 设置成功后，即可不需要账号密码clone和push代码了
 
